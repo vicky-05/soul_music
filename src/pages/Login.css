@@ -40,6 +40,8 @@ form h2{
 
 form h2 span{
   color: #66fcf1;
+  font-family: "Playpen Sans", cursive;
+  font-optical-sizing: auto;
 }
 
 form h3{
@@ -73,6 +75,7 @@ input{
     margin-top: 12px;
     font-size: 14px;
     font-weight: 300;
+    color: white;
 }
 ::placeholder{
     color: #66fcf1;

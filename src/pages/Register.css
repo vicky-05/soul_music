@@ -7,8 +7,8 @@
   height: 100vh;
 }
 
-form{
-    height: 520px;
+.forms{
+    height: 620px;
     width: 400px;
     background-color: rgba(255, 255, 255, 0.063);
     position: absolute;
@@ -19,16 +19,31 @@ form{
     backdrop-filter: blur(10px);
     border: 2px solid rgba(255,255,255,0.1);
     box-shadow: 0 0 40px rgba(8,7,16,0.6);
-    padding: 50px 35px;
+    padding: 10px 35px;
 }
-form *{
+.forms *{
     font-family: 'Poppins',sans-serif;
     color: #66fcf1;
     letter-spacing: 0.5px;
     outline: none;
     border: none;
 }
-form h3{
+
+.forms h2{
+    text-align: center;
+    font-family: "Playwrite CU", cursive;
+    color: whitesmoke;
+    padding: 5px;
+    padding-bottom: 10px;
+}
+
+.forms h2 span{
+    color: #66fcf1;
+    font-family: "Playpen Sans", cursive;
+    font-optical-sizing: auto;
+  }
+  
+.forms h3{
     font-size: 32px;
     font-weight: 500;
     line-height: 42px;
@@ -36,11 +51,11 @@ form h3{
     text-transform: uppercase;
 }
 
-form span{
+.forms span{
   color:#ffffff ;
 }
 
-label{
+.label{
     display: block;
     margin-top: 30px;
     font-size: 16px;
@@ -63,18 +78,28 @@ input{
 ::placeholder{
     color: #66fcf1;
 }
-button{
-    margin-top: 50px;
-    width: 100%;
+.btn{
+    margin: 12px 0px;
+    width: 50%;
     background-color: #ffffff;
+    align-items: center;
     color: #080710;
-    padding: 15px 0;
+    padding: 10px 0px;
     font-size: 18px;
     font-weight: 600;
     border-radius: 5px;
     cursor: pointer;
     text-transform: uppercase;
 }
-button:hover{
+
+.btn-grp{
+  display: flex;
+  justify-content: center;
+}
+
+.btn:hover{
     background-color: #66fcf1;
 }
+
+
+  

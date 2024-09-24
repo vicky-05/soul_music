@@ -58,7 +58,7 @@ const Login = () => {
       <div className="background"></div>
       <form onSubmit={handleSubmit}>
         <h2>
-          Soul <i class="fas fa-music"></i> <span>Music</span>
+          Soul <i class="fa-solid fa-music"></i> <span>Music</span>
         </h2>
         
         <h3>
